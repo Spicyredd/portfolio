@@ -1,0 +1,44 @@
+#skills{
+
+}
+
+.sub-skills{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 50svh;
+}
+
+.sub-skills div{
+    height: 50%;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#react h3,#django h3{
+    color:white;
+}
+#skills div{
+    background-size: cover;
+    background-position: center;
+}
+#python{
+    background-image:url(/public//skill_images/python.png);
+}
+#html{
+    background-image:url(/public//skill_images/html.png);
+}
+#css{
+    background-image:url(/public//skill_images/css.png);
+}
+#react{
+    background-image:url(/public//skill_images/react.png);
+}
+#django{
+    background-image:url(/public//skill_images/django.png);
+}
+#git{
+    background-image:url(/public//skill_images/git.png);
+}

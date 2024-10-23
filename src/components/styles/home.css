@@ -1,0 +1,59 @@
+#about{
+}
+#home-picture{
+    width: 700px;
+    margin-top: 100px;
+}
+.home-main-div{
+    width: 90vw;
+    height: 100svh;
+    margin: 0 auto;
+}
+#home{
+    width: 90vw;
+    background-color: #efefef;
+    display: flex;
+    height:82svh;
+    overflow: hidden;
+}
+
+.home-div{
+    margin-top: 1em;
+}
+#home-sub-div{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-evenly;
+}
+
+#home-sub-div h1{
+    font-size: 90px;
+}
+#home-sub-div p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#home-sub-div button{   
+font-size: 20px;
+width: 200px;
+height: 60px;
+font-weight:500;
+border: 2px solid black;
+}
+
+#home-sub-div button:hover{
+    background-color: black;
+    color: white;
+}
+
+.home-sub-div-1{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
