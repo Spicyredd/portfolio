@@ -1,0 +1,29 @@
+#InBlog{
+    width: 100svw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#InBlog1{
+    padding:8em 0;
+    width: 70%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    background-color: #d9e1c5;
+}
+
+#InBlog2{
+    display:flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 10px;
+    gap: 1em;
+}
+.sub-topic{
+    font-weight: 600;
+    font-size: 40px;
+}
+

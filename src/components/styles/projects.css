@@ -1,43 +1,117 @@
-#projects{
-    background-color: rgb(222, 222, 222);
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Prociono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Nanum+Gothic+Coding&family=Prociono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Adamina&family=Arima:wght@100..700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Golos+Text:wght@400..900&family=Nanum+Gothic+Coding&family=Prociono&display=swap");
+#projects {
+  /* background-color: #efefef; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.projects-div{
-    width: 100%;
-    /* padding:10px */
+
+.projects-div {
+  margin: 4em 0em;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
 }
-.images{
-    display: flex;
+
+.projects-div h2 {
+  font-size: 70px;
+}
+.projects-contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.projects-contents img {
+  height: 400px;
+}
+
+.projects-sub-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+.projects-sub-div-1 {
+  background-color: #efefef;
+  /* background-color: white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projects-sub-div-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  width: 90%;
+}
+
+.projects-sub-div-2 ul {
+  margin-left: 3ch;
+  font-weight: 100;
+  font-family: "Chakra Petch", sans-serif;
+  font-style: normal;
+  font-size: 1.1em;
+}
+
+.date {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-style: normal;
+  color: rgb(99, 99, 99);
+}
+
+.projects-sub-div-2 p {
+  font-family: "Golos Text", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.1em;
+}
+
+.projects-sub-div-2 h3 {
+  font-size: 1.6em;
+  font-weight: 400;
+  font-family: "Golos Text", sans-serif;
+}
+
+.projects-image1 {
+  background-image: url("/public/project_images/ams.JPG");
+  height: 400px;
+  height: 100px;    
+  background-position: center;
+  background-size: cover;
+}
+
+.tech_link{
+    display:flex;
     width: 100%;
     /* justify-content: space-between; */
 }
-.content{
-    width: 50%;
+
+.github{
     display: flex;
     flex-direction: column;
+    gap: 1em;
+    justify-content: center;
     flex-grow: 1;
     align-items: center;
-    padding:20px
-}
-.images img{
-    height: 400px;
 }
 
-.projects-div{
-    display: flex;
-    flex-direction: column;
-    font-size: 1.4em;
+.github p{
+    color: rgb(99, 99, 99);
 }
 
-.image2 img{
-    order:1;
+.github button{
+    border:2px solid black;
+    height: 3em;
+    background-color: white;
+    font-weight: bold;
+    width: 15em;
 }
 
-.sub-content{
-    display: flex;
-    gap:3em;
-    padding:10px;
-}
-
-.sub-content div{
-    width:50%;
+.github button:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid #d9e1c5;
 }

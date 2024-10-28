@@ -10,7 +10,6 @@
     margin: 0 auto;
 }
 #home{
-    width: 90vw;
     background-color: #efefef;
     display: flex;
     height:82svh;
@@ -35,7 +34,7 @@
     font-weight: 400;
 }
 
-#home-sub-div button{   
+.home_resume_button{   
 font-size: 20px;
 width: 200px;
 height: 60px;
@@ -43,7 +42,7 @@ font-weight:500;
 border: 2px solid black;
 }
 
-#home-sub-div button:hover{
+.home_resume_button:hover{
     background-color: black;
     color: white;
 }

@@ -4,6 +4,7 @@ import Projects from './Projects'
 import Contact from './Contact'
 import Skills from './Skills'
 import '../styles/home.css'
+import Footer from './Footer'
 
 const Home = () => {
   return (
@@ -13,7 +14,11 @@ const Home = () => {
       <div id = "home-sub-div">
         <h1>Hello, I'm Rishav!</h1>
         <p>An eager learner and machine learning specialist.</p>
-        <button>
+        <button class="home_resume_button"
+        onClick={() =>{
+          window.open("/#contact","_self")
+        }}
+        >
             Contact Me
         </button>
       </div>
@@ -21,9 +26,10 @@ const Home = () => {
       </div>
       </div>
       <About></About>
-      <Projects></Projects>
       <Skills></Skills>
+      <Projects></Projects>
       <Contact></Contact>
+      <Footer></Footer>
     </div>
   )
 }

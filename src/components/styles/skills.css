@@ -1,44 +1,73 @@
-#skills{
-
+#skills {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9e1c5;
 }
 
-.sub-skills{
+.sub-skills {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sub-skills1 div {
+  height: 300px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+#skills div {
+  background-size: cover;
+  background-position: center;
+}
+#python {
+  background-image: url(/public//skill_images/python.png);
+}
+#html {
+  background-image: url(/public//skill_images/html.png);
+}
+#css {
+  background-image: url(/public//skill_images/css.png);
+}
+#react {
+  background-image: url(/public//skill_images/react.png);
+}
+#django {
+  background-image: url(/public//skill_images/django.png);
+}
+#git {
+  background-image: url(/public//skill_images/git.png);
+}
+
+.skills-sub {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap:2em;
+}
+
+.sub-skills1{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 50svh;
+    width: 100%;
 }
 
-.sub-skills div{
-    height: 50%;
-    width: 33.33%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.skills-sub h2{
+    font-size:70px;
 }
 
-#react h3,#django h3{
-    color:white;
+.skills-sub a{
+    text-decoration: none;
+    color:#b7ff00;
+    font-weight: bold;
 }
-#skills div{
-    background-size: cover;
-    background-position: center;
-}
-#python{
-    background-image:url(/public//skill_images/python.png);
-}
-#html{
-    background-image:url(/public//skill_images/html.png);
-}
-#css{
-    background-image:url(/public//skill_images/css.png);
-}
-#react{
-    background-image:url(/public//skill_images/react.png);
-}
-#django{
-    background-image:url(/public//skill_images/django.png);
-}
-#git{
-    background-image:url(/public//skill_images/git.png);
+
+.skills-sub a:hover{
+    color: #ff00ff;
 }

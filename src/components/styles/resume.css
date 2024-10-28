@@ -1,0 +1,32 @@
+#resume{
+    width: 60svw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgb(205, 205, 205);
+}
+
+#resume-top{
+    padding:60px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height:600px;
+}
+
+.resume-sub-top{
+    width: 45%;
+}
+
+.resume-sub-top h3{
+    margin-top: 2em;
+}
+
+#resume-projects{
+    margin:0px;
+}
+
+.resume_button{
+    margin:0 auto;
+}

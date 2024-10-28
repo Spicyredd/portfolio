@@ -37,7 +37,7 @@
     font-size: 75px;
 }
 .line{
-    border-bottom:1px solid rgb(154, 154, 154);
+    border-bottom:2px solid rgb(154, 154, 154);
 }
 .sub-contact-1{
     display: flex;

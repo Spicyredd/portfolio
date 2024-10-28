@@ -3,25 +3,29 @@ import "../styles/skills.css";
 const Skills = () => {
   return (
     <div id="skills" class="home-div">
-      <h2>Little inventory of my skills</h2>
-      <div class="sub-skills">
-        <div id="html">
-          <h3>HTML</h3>
-        </div>
-        <div id="python">
-          <h3>Python</h3>
-        </div>
-        <div id="css">
-          <h3>CSS</h3>
-        </div>
-        <div id="react">
-          <h3>React</h3>
-        </div>
-        <div id="git">
-          <h3>Git</h3>
-        </div>
-        <div id="django">
-          <h3>Django</h3>
+      <div class="skills-sub">
+        <h2>I Am Proficient At</h2>
+        <p>The skills are relevant to projects which I have done which can be found at <a href="https://www.github.com/spicyredd">Github</a>.</p>
+        <div class="line"></div>
+        <div class="sub-skills">
+          <div class="sub-skills1">
+            <div id="python">
+            </div>
+            <div id="html">
+            </div>
+          </div>
+          <div class="sub-skills1">
+            <div id="css">
+            </div>
+            <div id="react">
+            </div>
+          </div>
+          <div class="sub-skills1">
+            <div id="git">
+            </div>
+            <div id="django">
+            </div>
+          </div>
         </div>
       </div>
     </div>
